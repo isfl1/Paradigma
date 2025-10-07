@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css'; 
+import '../styles/Navbar.css'; 
 import Logo from '../assets/logo.png';
 
 const NavLink: React.FC<{ href: string; label: string }> = ({ href, label }) => (

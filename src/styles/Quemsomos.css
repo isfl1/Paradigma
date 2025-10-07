@@ -1,0 +1,76 @@
+/* Container principal (section) */
+.quem-somos-section {
+  width: 80%;
+  background-color: #ffffff; /* bg-white */
+  padding: 4rem 1.5rem;      /* py-16 px-6 */
+  display: flex;
+  flex-direction: column;    /* flex-col */
+  align-items: center;       /* items-center */
+  justify-content: center;   /* justify-center */
+  gap: 3rem;                 /* gap-12 */
+}
+
+/* Para telas médias e maiores, muda a direção para linha */
+@media (min-width: 768px) {
+  .quem-somos-section {
+    flex-direction: row;     /* md:flex-row */
+    padding: 4rem 3rem;      /* md:px-12 */
+  }
+}
+
+/* Container da imagem */
+.quem-somos-imagem-container {
+  display: flex;
+  justify-content: center; /* flex justify-center */
+  width: 100%;             /* w-full */
+}
+
+/* Para telas médias e maiores, a imagem ocupa metade da largura */
+@media (min-width: 768px) {
+  .quem-somos-imagem-container {
+    width: 50%;            /* md:w-1/2 */
+  }
+}
+
+/* Tamanho da imagem */
+.logo-img {
+  max-width: 95%;
+  height: auto;
+}
+
+/* Container do texto */
+.quem-somos-texto-container {
+  width: 80%;             /* w-full */
+  text-align: center;      /* text-center */
+}
+
+/* Para telas médias e maiores, o texto ocupa metade da largura e alinha à esquerda */
+@media (min-width: 768px) {
+  .quem-somos-texto-container {
+    width: 50%;            /* md:w-1/2 */
+    text-align: left;      /* md:text-left */
+  }
+}
+
+/* Título */
+.quem-somos-titulo {
+  font-size: 1.5rem;      
+  line-height: 2rem;
+  font-weight: 600;        
+  color: #2d3748;         
+  margin-bottom: 1rem;     
+}
+
+
+@media (min-width: 768px) {
+  .quem-somos-titulo {
+    font-size: 1.875rem;  
+    line-height: 2.25rem;
+  }
+}
+
+/* Parágrafo */
+.quem-somos-paragrafo {
+  color: #4a5568;          /* text-gray-600 */
+  line-height: 1.625;      /* leading-relaxed */
+}
