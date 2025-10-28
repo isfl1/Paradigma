@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
-import meuLogo from '../assets/image.png';
+import meuLogo from '../assets/image1.png';
 
 
 interface HomeProps {}
